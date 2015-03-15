@@ -1,0 +1,7 @@
+alias ll='ls -l --color=auto'
+alias ll='ls -laF --color=auto'
+alias h='history'
+alias la='ls -A --color=auto'
+alias l='ls -CF --color=auto'
+alias cls='clear'
+
