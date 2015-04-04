@@ -24,4 +24,6 @@ ENV LC_CTYPE ja_JP.UTF-8
 
 #その他設定
 ADD .alias /
-#RUN "source .alias"
+#ENTRYPOINT source .alias
+
+CMD ["/bin/bash"]
